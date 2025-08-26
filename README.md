@@ -247,23 +247,20 @@ curl -X POST YOUR_SLACK_WEBHOOK_URL -d '{"text":"Test alert"}'
 ## Production Considerations
 
 ### Security
-- [ ] Enable RBAC for service accounts
-- [ ] Use TLS for metric endpoints
-- [ ] Secure Grafana with LDAP/OAuth
-- [ ] Network policies for pod communication
+-  Enable RBAC for service accounts
+-  Use TLS for metric endpoints
+-  Secure Grafana with LDAP/OAuth
+-  Network policies for pod communication
 
 ### Performance
-- [ ] Configure resource limits for all pods
-- [ ] Set up persistent volumes for Prometheus data
-- [ ] Configure retention policies
-- [ ] Enable metric relabeling for optimization
+-  Configure resource limits for all pods
+-  Set up persistent volumes for Prometheus data
+-  Configure retention policies
+-  Enable metric relabeling for optimization
 
 ### High Availability
-- [ ] Deploy Prometheus in HA mode
-- [ ] Use external storage (S3, GCS) for long-term retention
-- [ ] Set up Grafana clustering
-- [ ] Configure AlertManager clustering
+-  Deploy Prometheus in HA mode
+-  Use external storage (S3, GCS) for long-term retention
+-  Set up Grafana clustering
+-  Configure AlertManager clustering
 
-
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
